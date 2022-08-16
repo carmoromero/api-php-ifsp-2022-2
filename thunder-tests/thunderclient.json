@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "3e75820d-c62a-4b93-9dcd-4127eea5333a",
+    "colId": "a55a6305-6aa9-4cc9-b353-6abae51ec22f",
+    "containerId": "",
+    "name": "Estados do Brasil",
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-16T19:39:35.652Z",
+    "modified": "2022-08-16T19:39:35.652Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f94ef1db-4523-435c-9f56-812896799630",
+    "colId": "a55a6305-6aa9-4cc9-b353-6abae51ec22f",
+    "containerId": "",
+    "name": "Municipios por Estado",
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-08-16T19:44:27.663Z",
+    "modified": "2022-08-16T19:44:27.663Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

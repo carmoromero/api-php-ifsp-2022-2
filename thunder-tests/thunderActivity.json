@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "6c79218f-62b6-4896-bb47-d6c118ee9765",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-16T19:36:47.524Z",
+    "modified": "2022-08-16T19:36:47.805Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f78938a9-4a2f-424f-a034-a455f678ad7b",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/SP/municipios",
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/SP/municipios",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-16T19:42:22.717Z",
+    "modified": "2022-08-16T19:42:42.560Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
