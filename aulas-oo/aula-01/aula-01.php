@@ -1,51 +1,32 @@
 <?php
+require('Product.php');
 
-class Produto{
-    //Propriedades
-    public $id;
-    public $imagem;
-    public $nome;
-    public $preco;
+$prod = new Product(null, null, null, null);
+$prod2 = new Product(null, null, null, null);
 
-    // Metodos (Funções)
+$prod->setPrice(10);
+$prod2->setPrice(20);
 
-    function definirPreco($novoPreco){
-        $this->preco = $novoPreco;
-    }
-    function mostrarPreco(){
-        echo $this->preco;
-    }
-    function definirNome($novoNome){
-        $this->nome = $novoNome;
-    }
-    function mostrarNome(){
-        echo $this->nome;
-    }
-}
-$prod = new Produto();
-$prod2 = new Produto();
-
-$prod->definirPreco(10);
-$prod2->definirPreco(20);
+$prod->name = "TV 40 Polegadas";
 
 
-$prod->definirNome("Sansung_S");
-$prod2->definirNome("SHARP_E");
+$prod->setName("Sansung_S");
+$prod2->setName("SHARP_E");
 
 echo "Valor = ";
-$prod->mostrarPreco();
+$prod->getPrice();
 
 echo "<br>nome = ";
-$prod->mostrarNome();
+$prod->getPrice();
 
 echo "<br>------------------<br>";
 
 
 echo "Valor = ";
-$prod2->mostrarPreco();
+$prod2->getPrice();
 
 echo "<br>nome = ";
-$prod2->mostrarNome();
+$prod2->getPrice();
 
 
 
