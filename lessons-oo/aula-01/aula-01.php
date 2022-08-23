@@ -28,6 +28,4 @@ $prod2->getPrice();
 echo "<br>nome = ";
 $prod2->getPrice();
 
-
-
 ?>
